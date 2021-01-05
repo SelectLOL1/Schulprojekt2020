@@ -1,0 +1,151 @@
+[
+    {
+        "id": "44f6af9.c40585",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "1997b629.028cda",
+        "type": "mqtt in",
+        "z": "44f6af9.c40585",
+        "name": "temp",
+        "topic": "room/temp",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "a2d3f481.0e6f48",
+        "x": 370,
+        "y": 400,
+        "wires": [
+            [
+                "a90bcff.c2688b"
+            ]
+        ]
+    },
+    {
+        "id": "a90bcff.c2688b",
+        "type": "ui_chart",
+        "z": "44f6af9.c40585",
+        "name": "",
+        "group": "64445825.3a7de",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "Temp",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "Hey Du Gay",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "useOldStyle": false,
+        "outputs": 1,
+        "x": 570,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d2d00657.68c7d",
+        "type": "ui_gauge",
+        "z": "44f6af9.c40585",
+        "name": "",
+        "group": "64445825.3a7de",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Humidty",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "45",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 580,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "df2fe703.3b61a8",
+        "type": "mqtt in",
+        "z": "44f6af9.c40585",
+        "name": "humidity",
+        "topic": "room/humidity",
+        "qos": "2",
+        "datatype": "auto",
+        "broker": "a2d3f481.0e6f48",
+        "x": 380,
+        "y": 340,
+        "wires": [
+            [
+                "d2d00657.68c7d"
+            ]
+        ]
+    },
+    {
+        "id": "a2d3f481.0e6f48",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": false,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "64445825.3a7de",
+        "type": "ui_group",
+        "name": "sensor",
+        "tab": "111b1dc7.586c4a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "111b1dc7.586c4a",
+        "type": "ui_tab",
+        "name": "Room",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
