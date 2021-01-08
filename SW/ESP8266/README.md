@@ -4,3 +4,5 @@ Aus dem Internet kopiert, zum testen
 Aus dem Internet kopiert, zum testen. Bisschen abgeaendert
 # V003:
 Aus dem Internet kopiert, zum testen. Abgeandert. Alle Werte werden in einem mal gesendet.
+
+Install: Adafruit SHT31 Library!
