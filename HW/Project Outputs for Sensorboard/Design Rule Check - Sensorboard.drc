@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\clgall\Desktop\Sensorboard\Sensorboard.PcbDoc
-Date     : 19.02.2020
-Time     : 13:48:28
+PCB File : C:\Users\bca\Desktop\schulprojektneweststand\HW\Sensorboard.PcbDoc
+Date     : 28.01.2021
+Time     : 17:43:17
 
 Processing Rule : Clearance Constraint (Gap=0.5mm) (HasFootprint('Fiducial_10')),(All)
 Rule Violations :0
@@ -22,12 +22,14 @@ Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
 Rule Violations :0
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad R2-2(9.65mm,19.7mm) on Top Layer And Pad J3-1(11.65mm,8.65mm) on Top Layer 
+   Violation between Un-Routed Net Constraint: Net 3.3V Between Pad R7-2(5.925mm,29.151mm) on Top Layer And Pad U1-5(15.743mm,33.725mm) on Top Layer 
+Rule Violations :2
 
 Processing Rule : Width Constraint (Min=0.15mm) (Max=10mm) (Preferred=0.25mm) (All)
 Rule Violations :0
 
-Processing Rule : Routing Via (MinHoleWidth=0.2mm) (MaxHoleWidth=0.6mm) (PreferredHoleWidth=0.2mm) (MinWidth=0.1mm) (MaxWidth=1mm) (PreferedWidth=0.25mm) (All)
+Processing Rule : Routing Via (MinHoleWidth=0.22mm) (MaxHoleWidth=0.6mm) (PreferredHoleWidth=0.22mm) (MinWidth=0.47mm) (MaxWidth=1mm) (PreferedWidth=0.47mm) (All)
 Rule Violations :0
 
 Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=0.2mm) (Max=0.2mm) (Prefered=0.2mm)  and Width Constraints (Min=0.381mm) (Max=0.381mm) (Prefered=0.381mm) (All)
@@ -60,10 +62,13 @@ Rule Violations :0
 Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
+Processing Rule : Room Sensorboard (Bounding Region = (84.85mm, 0mm, 231.525mm, 114.625mm) (InComponentClass('Sensorboard'))
+Rule Violations :0
+
 Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 2
 Waived Violations : 0
-Time Elapsed        : 00:00:00
+Time Elapsed        : 00:00:01
