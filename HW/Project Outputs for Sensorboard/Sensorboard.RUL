@@ -1,0 +1,12 @@
+DRC Rules Export File for PCB: C:\Users\bca\Desktop\schulprojektneweststand\HW\Sensorboard.PcbDoc
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing|Scope=Board|Minimum=3.94
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=2.95
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_Vias|Scope=Board|Minimum=-3.94
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion_Fiducials|Scope=Board|Minimum=39.37
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_All|Scope=Board|Minimum=5.91
+RuleKind=Clearance|RuleName=Clearance_keepout_to_component|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_Fiducial|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Clearance_J1 & J2|Scope=Board|Minimum=3.94
+RuleKind=Clearance|RuleName=Clearance_NPTH|Scope=Board|Minimum=9.84

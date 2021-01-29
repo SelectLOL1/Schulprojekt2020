@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Sensorboard.PrjPcb]
+   Generated File[Sensorboard-RoundHoles.TXT]
+   Generated File[Sensorboard-SlotHoles.TXT]
+   Generated File[Sensorboard.LDP]
+   Generated File[Sensorboard.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 15:36:23 On 29.01.2021
